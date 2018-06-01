@@ -20,10 +20,11 @@
 # In addition, your final script should both print the analysis to the terminal 
 # and export a text file with the results.
 
-# NOTE   *** This refers the the dataset for getting report figures, and does not indicate anywhere 
+# NOTE   *** This refers the the dataset for getting report figures, 
+#            and does not indicate anywhere 
 #            that the datasets should be combined.
 
-# READme by Verna for this script
+# AUTHOR NOTES by Verna for this script
 # This program is designed for input from the user to enter the file pathname of the csv file and expects 
 # the user to provide the proper file format of a CSV
 
@@ -44,7 +45,6 @@ import csv
 
 # Get file_path_name_________________________
 print()
-
 print("This is PyBank - your Budget Analyzer")
 print("You will need the following to proceed:")
 print("    1) The full path name for the CSV dataset that you wish to analyze.")
@@ -52,10 +52,6 @@ print("    2) The path name of the directory that you want your report saved to.
 print("    2) The .txt file name you want to create for your report.")
 print()
 print("Your current working directory path is: ",os.getcwd())
-
-# Data Set file paths to cut and paste from my system for testing_______________
-#    /Users/vernaorsatti/Documents/Bootcamp/Bootcamp Assignments/#3 Homework Assignment/budget_data_1.csv
-#    /Users/vernaorsatti/Documents/Bootcamp/Bootcamp Assignments/#3 Homework Assignment/budget_data_2.csv
 
 # Get valid csv file full path name from user__________________
 file_test = "n"
